@@ -15,4 +15,6 @@ After modification, you can enter two numbers, choose which operation you want t
 ## Live Demo:
 -------------------------
 
-Will be added soon.
+http://abdalla-wd.com/phptrack/calculator/index.php
+
+
