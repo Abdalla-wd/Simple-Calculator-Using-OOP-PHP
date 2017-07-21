@@ -1,7 +1,7 @@
 <?php 
 
 
-interface OperatorInterface
+interface operatorinterface
 {
 	public function run($number1,$number2);
 }

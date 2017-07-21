@@ -1,6 +1,6 @@
 <?php 
 
-class divider implements OperatorInterface
+class divider implements operatorinterface
 {
 	public function run($number1,$number2)
 	{

@@ -1,6 +1,6 @@
 <?php
 
-class Multiplier implements Operatorinterface
+class multiplier implements operatorinterface
 {
 	public function run($number1,$number2)
 	{

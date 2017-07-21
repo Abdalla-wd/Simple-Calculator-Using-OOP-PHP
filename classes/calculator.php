@@ -9,7 +9,7 @@ class calculator
 	protected $number2;
 	
 	
-	public function setOperation(Operatorinterface $operation)
+	public function setOperation(operatorinterface $operation)
 	{
 		$this->operation=$operation;
 		

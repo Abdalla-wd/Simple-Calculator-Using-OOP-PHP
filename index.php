@@ -10,7 +10,7 @@ if(isset($_POST['fnumber']) && isset($_POST['snumber']) && isset($_POST['operati
 	{
 		case "add":
 		{
-			$c->setOperation(New Adder);
+			$c->setOperation(New adder);
 			$c->calculate($_POST['fnumber'],$_POST['snumber']);
 			break;
 		}

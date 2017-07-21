@@ -1,9 +1,12 @@
 <?php
 
-class adder implements OperatorInterface
+class adder implements operatorInterface
 {
-	public function run($number1,$number2)
-	{
-		return "$number1". ' + '."$number2".' = '.$number1+$number2;
-	}
+	protected $outcome;
+		public function run($number1,$number2)
+		{
+			$this->outcome=$number1+$number2;
+			return "$number1". ' + '."$number2".' = '.$this->outcome;
+		
+		}
 }
