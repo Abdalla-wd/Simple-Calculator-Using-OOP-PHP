@@ -1,0 +1,56 @@
+body
+{
+	background:#DDD;
+}
+
+
+.calculator
+{
+	background:#FFF;
+	padding:20px;
+}
+
+.calculator h1 
+{
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:40px;
+}
+
+.btn-primary
+{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	width:200px;
+}
+
+
+
+input[type=text]
+{
+	width:150px;
+	margin:10px;
+}
+
+input[type=submit]
+{
+	margin-left:auto;
+}
+
+table 
+{
+	margin:auto;
+}
+
+.result
+{
+	text-align:center;
+	margin:auto;
+}
+
+.op
+{
+	padding-left:10%;
+	text-align:left;
+}
