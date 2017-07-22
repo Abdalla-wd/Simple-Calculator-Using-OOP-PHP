@@ -22,10 +22,10 @@
 			<div class="calculator text-center">
 				<h1>OOP Based Calculator</h1>
 				<form action="index.php" method="post">
-					<p>Please insert the numbers and choose the operations you want to perform. Then press "Calculate":</p>
+					<p>Please insert the numbers and choose the operation you want to perform. Then press "Calculate":</p>
 					<table>
-					<tr><td colspan="2"><input type="text" name="fnumber"></td></tr>
-					<tr><td colspan="2"><input type="text" name="snumber"></td></tr>
+					<tr><td colspan="2"><input type="number" name="fnumber"></td></tr>
+					<tr><td colspan="2"><input type="number" name="snumber"></td></tr>
 					
 					<tr>
 						<td class="op"><input type="radio" name="operation" value="add"> Add</td>
@@ -38,7 +38,7 @@
 					<tr><td colspan="2"><input type="submit" value="calculate" class="btn btn-primary"></td></tr>
 					<tr><td colspan="2"><div class="result">  
 
-<?php echo $c->getresult();?>
+<?php echo $c->getresult(); ?>
 
 </div></td></tr>
 					</table>
