@@ -3,10 +3,8 @@
 class calculator
 {
 	protected $result;
-	protected $inputs;
+	
 	protected $operation;
-	protected $number1;
-	protected $number2;
 	
 	
 	public function setOperation(operatorinterface $operation)
@@ -15,13 +13,9 @@ class calculator
 		
 	}
 	
-	public function calculate()
+	public function calculate($number1, $number2)
 	{
-		
-		$this->inputs=func_get_Args();
-		$this->number1=$this->inputs[0];
-		$this->number2=$this->inputs[1];
-		$this->result=$this->operation->run($this->number1,$this->number2);
+		$this->result=$this->operation->run($number1,$number2);
 		
 	}
 	
